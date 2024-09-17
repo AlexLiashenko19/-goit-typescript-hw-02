@@ -1,9 +1,7 @@
 import { ThreeDots } from "react-loader-spinner";
 import css from "./Loader.module.css";
-import { FC } from "react";
 
-
-const Loader:FC = () => {
+const Loader = () => {
   return (
     <div className={css.loader}>
       <ThreeDots
