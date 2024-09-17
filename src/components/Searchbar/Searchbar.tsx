@@ -1,7 +1,7 @@
 import React, { useState, ChangeEvent, FormEvent } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { FiSearch } from "react-icons/fi";
-import css from "./SearchBar.module.css";
+import css from "./Searchbar.module.css";
 
 interface SearchBarProps {
   onSubmit: (query: string) => void;
