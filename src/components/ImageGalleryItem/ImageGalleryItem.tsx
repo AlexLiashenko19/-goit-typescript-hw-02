@@ -1,5 +1,5 @@
 import { FC } from "react";
-import css from "./ImageCard.module.css";
+import css from "./ImageGalleryItem.module.css";
 
 interface ImageCardProps {
   alt: string;

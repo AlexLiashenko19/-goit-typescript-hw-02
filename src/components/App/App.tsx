@@ -2,7 +2,7 @@ import { FC, useEffect, useState } from "react";
 import "./App.css";
 import ImageGallery from "../ImageGallery/ImageGallery";
 import SearchBar from "../Searchbar/Searchbar";
-import {Loader} from "../Loader/Loader";
+import Loader from "../Loader/Loader";
 import getPhotos, { Photo} from "../../helpers/helpers";
 import LoadMoreBtn from "../Button/Button";
 import ErrorMessage, { ErrorMessageProps } from "../ErrorMessage/ErrorMessage";

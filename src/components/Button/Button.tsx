@@ -1,5 +1,5 @@
 import { FC } from "react";
-import css from "./LoadMoreBtn.module.css";
+import css from "./Button.module.css";
 
 interface LoadMoreBtnProps{
   onClick: () => void;
